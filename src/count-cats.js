@@ -4,3 +4,7 @@ module.exports = function countCats(/* matrix */) {
   throw new CustomError('Not implemented');
   // remove line with error and write your code here
 };
+
+const countCats = function () {
+  return 1;
+}
